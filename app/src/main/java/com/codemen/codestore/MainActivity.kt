@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        txt1.text = "Hello Android Extensions "
+
        // toastLong("Hello Erix ..")
         toastShort("hello desde Anko")
     }
