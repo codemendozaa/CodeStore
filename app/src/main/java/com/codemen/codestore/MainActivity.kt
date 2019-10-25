@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        rcViewLanding.layoutManager = GridLayoutManager(this,2)
+       rcViewLanding.layoutManager = GridLayoutManager(this,2)
         val itemsShop = (0..20).map{
             Item_landing("Titulo $it","Desc $it",2000.00 + it)
         }
